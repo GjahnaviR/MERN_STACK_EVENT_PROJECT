@@ -11,8 +11,8 @@ const Contact = () => {
   const handleSendMessage = async (e) => {
     e.preventDefault();
     await axios
-      .post(
-        "http://localhost:4000/api/v1/message/send",
+    .post(`${import.meta.env.VITE_REACT_APP_BACKEND_URL}/api/v1/message/send`, 
+
         {
           name,
           email,
