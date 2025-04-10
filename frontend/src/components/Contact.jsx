@@ -44,7 +44,7 @@ const Contact = () => {
       <div className="banner">
         <div className="item">
           <h4>Address</h4>
-          <p>Any where, Any City, 4521</p>
+          <p>Anywhere, Warangal, 506002</p>
         </div>
         <div className="item">
           <h4>Call Us</h4>
@@ -58,7 +58,7 @@ const Contact = () => {
       <div className="banner">
         <div className="item">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57929.23355645912!2d67.01519255!3d24.8441321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e70a31f45a9%3A0x25e252450977ec12!2sSaddar%20Town%2C%20Karachi%2C%20Sindh!5e0!3m2!1sen!2s!4v1709099958323!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15202.18725067294!2d79.5833644!3d17.9784265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334519dc2d0f1f%3A0x1945ec3de754f79b!2sWarangal%2C%20Telangana!5e0!3m2!1sen!2sin!4v1712775623456!5m2!1sen!2sin"
             style={{ border: 0, width: "100%", height: "450px" }}
             allowFullScreen=""
             loading="lazy"
