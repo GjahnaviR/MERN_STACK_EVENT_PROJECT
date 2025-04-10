@@ -10,6 +10,10 @@ const Contact = () => {
 
   const handleSendMessage = async (e) => {
     e.preventDefault();
+
+    // ✅ Debug log for backend URL
+    console.log("Backend URL is:", import.meta.env.VITE_REACT_APP_BACKEND_URL);
+
     try {
       const res = await axios.post(
         `${import.meta.env.VITE_REACT_APP_BACKEND_URL}/api/v1/message/send`,
